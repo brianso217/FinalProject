@@ -1,5 +1,5 @@
 {
-  "name": "coolnodeapp",
+  "name": "cus1172finalprojectso",
   "version": "1.0.0",
   "description": "node app ",
   "main": "app.js",
@@ -8,9 +8,9 @@
 },
   "repository": {
   "type": "git",
-  "url": ""
+  "url": "https://github.com/brianso217/FinalProject"
 },
-  "author": "",
+  "author": "Brian So",
   "license": "ISC",
   "bugs": {
   "url": ""
