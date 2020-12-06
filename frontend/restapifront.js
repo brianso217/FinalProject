@@ -22,6 +22,7 @@ var updateView = async (button) => {
   const data= await fetch(api);
   const model= await data.json();
   render_view(model);
+
 }
 
 
@@ -31,4 +32,5 @@ var render_view= (model) => {
   var html= template(model);
 
   document.querySelector("#results").innerHTML= html;
+
 }

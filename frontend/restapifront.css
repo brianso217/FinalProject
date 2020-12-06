@@ -1,0 +1,32 @@
+h1{
+  vertical-align: center;
+   
+}
+
+#queryForm{
+  font-size: 20px;
+  color: white;
+}
+.container{
+  background-color: red;
+}
+
+.table {
+font-size: 20px;
+border-width: 3px;
+color: white;
+border-style: solid;
+border-color: black;
+border-collapse: collapse;
+background-color: black;
+vertical-align: center;
+line-height: 30px;
+
+}
+.data:hover{
+  background-color: #6AD7C7;
+}
+.button{
+  color: white;
+  background-color:black;
+}
