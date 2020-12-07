@@ -9,7 +9,7 @@ app.use('/api', api_routes);
 app.use('/demo', express.static('frontend'));
 //Start server
 
-app.listen(process.env.PORT|| 3000, function(){
+app.listen(process.env.PORT, function(){
   console.log("Server is running!");
 }
   //console.log(coursejson);
