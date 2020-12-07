@@ -1,19 +1,24 @@
 {
   "name": "cus1172finalprojectso",
   "version": "1.0.0",
-  "description": "node app ",
-  "main": "app.js",
+  "description": "final project",
+  "main": "restapiback.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.7.6"
+  },
+  "devDependencies": {},
   "scripts": {
-  "start": "node app.js"
-},
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/brianso217/FinalProject"
-},
+    "type": "git",
+    "url": "git+https://github.com/brianso217/FinalProject.git"
+  },
   "author": "Brian So",
   "license": "ISC",
   "bugs": {
-  "url": ""
-},
-  "homepage": ""
+    "url": "https://github.com/brianso217/FinalProject/issues"
+  },
+  "homepage": "https://github.com/brianso217/FinalProject#readme"
 }
