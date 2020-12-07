@@ -19,7 +19,7 @@ var updateView = async (button) => {
     let queryValue= document.querySelector('#professorQuery').value;
     api= `https://cus1172finalprojectso.herokuapp.com/api/by_courseprofessor/${queryValue}`;
   }
-  const proxyurl: "https://cors-anywhere.herokuapp.com/"
+  const proxyurl= "https://cors-anywhere.herokuapp.com/"
   const data= await fetch(proxyurl+api);
   const model= await data.json();
   render_view(model);
