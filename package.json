@@ -2,7 +2,7 @@
   "name": "cus1172finalprojectso",
   "version": "1.0.0",
   "description": "final project",
-  "main": "restapiback.js",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
     "handlebars": "^4.7.6"
