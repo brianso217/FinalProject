@@ -1,4 +1,4 @@
-
+Access-Control-Allow-Origin: *
 
 var updateView = async (button) => {
   if(button.dataset.querytype=="by_coursecode"){
